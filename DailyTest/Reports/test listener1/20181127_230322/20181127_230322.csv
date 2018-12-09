@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test listener1,Chrome 68.0.3440.106,,2018-11-27 23:03:24,2018-11-27 23:04:09,45.386s,FAILED
+,,,,,,
+Test Cases/For,Chrome 68.0.3440.106,,2018-11-27 23:03:24,2018-11-27 23:03:32,7.583s,PASSED
+Statement - a = 1,Chrome 68.0.3440.106,,2018-11-27 23:03:24,2018-11-27 23:03:24,0.002s,PASSED
+Statement - b = 2,Chrome 68.0.3440.106,,2018-11-27 23:03:24,2018-11-27 23:03:24,0.003s,PASSED
+Statement - c = 2,Chrome 68.0.3440.106,,2018-11-27 23:03:24,2018-11-27 23:03:24,0.002s,PASSED
+openBrowser,Chrome 68.0.3440.106,,2018-11-27 23:03:24,2018-11-27 23:03:29,5.047s,PASSED
+waitForPageLoad,Chrome 68.0.3440.106,,2018-11-27 23:03:29,2018-11-27 23:03:29,0.133s,PASSED
+"Statement - For ([i = 0, i < 2, (i++)])",Chrome 68.0.3440.106,,2018-11-27 23:03:29,2018-11-27 23:03:31,2.009s,PASSED
+click,Chrome 68.0.3440.106,,2018-11-27 23:03:31,2018-11-27 23:03:32,0.107s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-11-27 23:03:32,2018-11-27 23:03:32,0.028s,PASSED
+,,,,,,
+Test Cases/Get browser cookie,Chrome 68.0.3440.106,,2018-11-27 23:03:32,2018-11-27 23:03:37,5.672s,FAILED
+openBrowser,Chrome 68.0.3440.106,,2018-11-27 23:03:32,2018-11-27 23:03:37,4.896s,PASSED
+waitForPageLoad,Chrome 68.0.3440.106,,2018-11-27 23:03:37,2018-11-27 23:03:37,0.011s,PASSED
+click,Chrome 68.0.3440.106,,2018-11-27 23:03:37,2018-11-27 23:03:37,0.489s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-11-27 23:03:37,2018-11-27 23:03:37,0.009s,PASSED
+,,,,,,
+Test Cases/Open a new Tab in chrome,Chrome 68.0.3440.106,,2018-11-27 23:03:37,2018-11-27 23:04:01,24.062s,PASSED
+openBrowser,Chrome 68.0.3440.106,,2018-11-27 23:03:37,2018-11-27 23:04:01,23.811s,PASSED
+Statement - robot = new java.awt.Robot(),Chrome 68.0.3440.106,,2018-11-27 23:04:01,2018-11-27 23:04:01,0.005s,PASSED
+Statement - robot.keyPress(VK_CONTROL),Chrome 68.0.3440.106,,2018-11-27 23:04:01,2018-11-27 23:04:01,0.024s,PASSED
+Statement - robot.keyPress(VK_T),Chrome 68.0.3440.106,,2018-11-27 23:04:01,2018-11-27 23:04:01,0.002s,PASSED
+Statement - robot.keyRelease(VK_CONTROL),Chrome 68.0.3440.106,,2018-11-27 23:04:01,2018-11-27 23:04:01,0.002s,PASSED
+Statement - robot.keyRelease(VK_T),Chrome 68.0.3440.106,,2018-11-27 23:04:01,2018-11-27 23:04:01,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-11-27 23:04:01,2018-11-27 23:04:01,0.019s,PASSED
+,,,,,,
+Test Cases/Switch to new windos index,Chrome 68.0.3440.106,,2018-11-27 23:04:01,2018-11-27 23:04:09,7.498s,PASSED
+Statement - a = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 68.0.3440.106,,2018-11-27 23:04:02,2018-11-27 23:04:02,0.001s,PASSED
+openBrowser,Chrome 68.0.3440.106,,2018-11-27 23:04:02,2018-11-27 23:04:04,2.703s,PASSED
+navigateToUrl,Chrome 68.0.3440.106,,2018-11-27 23:04:04,2018-11-27 23:04:08,3.196s,PASSED
+mouseOver,Chrome 68.0.3440.106,,2018-11-27 23:04:08,2018-11-27 23:04:08,0.151s,PASSED
+click,Chrome 68.0.3440.106,,2018-11-27 23:04:08,2018-11-27 23:04:08,0.003s,NOT_RUN
+"Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SwitchToNewWindosIndex/Page_JavaScript/TryItButton), OPTIONAL)",Chrome 68.0.3440.106,,2018-11-27 23:04:08,2018-11-27 23:04:08,0.171s,PASSED
+Statement - println(a),Chrome 68.0.3440.106,,2018-11-27 23:04:08,2018-11-27 23:04:08,0.005s,PASSED
+Statement - robot = new java.awt.Robot(),Chrome 68.0.3440.106,,2018-11-27 23:04:08,2018-11-27 23:04:08,0.001s,PASSED
+Statement - robot.keyPress(VK_CONTROL),Chrome 68.0.3440.106,,2018-11-27 23:04:08,2018-11-27 23:04:08,0.001s,PASSED
+Statement - robot.keyPress(VK_T),Chrome 68.0.3440.106,,2018-11-27 23:04:08,2018-11-27 23:04:08,0.002s,PASSED
+Statement - robot.keyRelease(VK_CONTROL),Chrome 68.0.3440.106,,2018-11-27 23:04:08,2018-11-27 23:04:08,0.021s,PASSED
+Statement - robot.keyRelease(VK_T),Chrome 68.0.3440.106,,2018-11-27 23:04:08,2018-11-27 23:04:08,0.024s,PASSED
+switchToWindowIndex,Chrome 68.0.3440.106,,2018-11-27 23:04:08,2018-11-27 23:04:08,0.101s,PASSED
+closeBrowser,Chrome 68.0.3440.106,,2018-11-27 23:04:08,2018-11-27 23:04:09,0.727s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 68.0.3440.106,,2018-11-27 23:04:09,2018-11-27 23:04:09,0.011s,PASSED

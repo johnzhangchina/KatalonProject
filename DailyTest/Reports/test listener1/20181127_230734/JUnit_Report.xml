@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test listener1" time="45" tests="3" failures="1" errors="0">
+   <testsuite name="test listener1" tests="3" failures="1" errors="0" time="45" timestamp="2018-11-27 23:07:36" hostname="JHONNY - DESKTOP-DDA4APG" id="Test Suites/test listener1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Project\\DailyTest\\Reports\\test listener1\\20181127_230734"/>
+         <property name="logFiles" value="D:\\Katalon Project\\DailyTest\\Reports\\test listener1\\20181127_230734\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon Project\\DailyTest\\Reports\\test listener1\\20181127_230734\\1543331270705.png"/>
+         <property name="hostName" value="JHONNY - DESKTOP-DDA4APG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.101.9"/>
+         <property name="sessionId" value="8059ddbf6fd738137921ccc435d23291"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/For" classname="Test Cases/For" status="PASSED">
+         <system-out><![CDATA[2018-11-27 23:07:37 - [TEST_CASE][PASSED] - Test Cases/For: Test Cases/For
+
+2018-11-27 23:07:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener_2.sampleAfterTestCase(...)' completed.
+
+2018-11-27 23:07:37 - [TEST_STEP][PASSED] - Statement - a = 0: null
+
+2018-11-27 23:07:37 - [TEST_STEP][PASSED] - Statement - (a++): null
+
+2018-11-27 23:07:37 - [TEST_STEP][PASSED] - Statement - println(a): null
+
+2018-11-27 23:07:37 - [TEST_STEP][PASSED] - Statement - return a: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener_2.sampleAfterTestCase(...)' completed.
+
+2018-11-27 23:07:37 - [TEST_STEP][PASSED] - Statement - a = 1: null
+
+2018-11-27 23:07:37 - [TEST_STEP][PASSED] - Statement - b = 2: null
+
+2018-11-27 23:07:37 - [TEST_STEP][PASSED] - Statement - c = 2: null
+
+2018-11-27 23:07:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://www.51zxw.net/login/'
+
+2018-11-27 23:07:43 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.51zxw.net/login/'
+
+2018-11-27 23:07:43 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-27 23:07:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-27 23:07:43 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < 2, (i++)]): null
+
+2018-11-27 23:07:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Cookie testing/From data' is clicked on
+
+2018-11-27 23:07:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Cookie testing/From data' is clicked on
+
+2018-11-27 23:07:44 - [TEST_STEP][PASSED] - setText: Text 'johntestzhang@yeah.net' is set on object 'Object Repository/Cookie testing/From data'
+
+2018-11-27 23:07:45 - [MESSAGE][PASSED] - Text 'johntestzhang@yeah.net' is set on object 'Object Repository/Cookie testing/From data'
+
+2018-11-27 23:07:45 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-11-27 23:07:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Cookie testing/From data' is clicked on
+
+2018-11-27 23:07:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Cookie testing/From data' is clicked on
+
+2018-11-27 23:07:45 - [TEST_STEP][PASSED] - setText: Text '521jobZQ' is set on object 'Object Repository/Cookie testing/From data'
+
+2018-11-27 23:07:45 - [MESSAGE][PASSED] - Text '521jobZQ' is set on object 'Object Repository/Cookie testing/From data'
+
+2018-11-27 23:07:45 - [TEST_STEP][PASSED] - Statement - (c++): null
+
+2018-11-27 23:07:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Cookie testing/login button' is clicked on
+
+2018-11-27 23:07:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Cookie testing/login button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Get browser cookie" classname="Test Cases/Get browser cookie" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-11-27 23:07:45 - [TEST_CASE][FAILED] - Test Cases/Get browser cookie: Test Cases/Get browser cookie FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-11-27 23:07:45 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener_2.sampleAfterTestCase(...)' completed.
+
+2018-11-27 23:07:45 - [TEST_STEP][PASSED] - Statement - a = 0: null
+
+2018-11-27 23:07:45 - [TEST_STEP][PASSED] - Statement - (a++): null
+
+2018-11-27 23:07:45 - [TEST_STEP][PASSED] - Statement - println(a): null
+
+2018-11-27 23:07:45 - [TEST_STEP][PASSED] - Statement - return a: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener_2.sampleAfterTestCase(...)' completed.
+
+2018-11-27 23:07:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://www.51zxw.net/login/'
+
+2018-11-27 23:07:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-27 23:07:50 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.51zxw.net/login/'
+
+2018-11-27 23:07:50 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-27 23:07:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-27 23:07:50 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-11-27 23:07:50 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Cookie testing/user name input box' does not exist
+
+2018-11-27 23:07:50 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-11-27 23:07:51 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|D:\\Katalon Project\\DailyTest\\Reports\\test listener1\\20181127_230734\\1543331270705.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-27 23:07:45 - [TEST_CASE][FAILED] - Test Cases/Get browser cookie: Test Cases/Get browser cookie FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Open a new Tab in chrome" classname="Test Cases/Open a new Tab in chrome" status="PASSED">
+         <system-out><![CDATA[2018-11-27 23:07:51 - [TEST_CASE][PASSED] - Test Cases/Open a new Tab in chrome: Test Cases/Open a new Tab in chrome
+
+2018-11-27 23:07:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener_2.sampleAfterTestCase(...)' completed.
+
+2018-11-27 23:07:51 - [TEST_STEP][PASSED] - Statement - a = 0: null
+
+2018-11-27 23:07:51 - [TEST_STEP][PASSED] - Statement - (a++): null
+
+2018-11-27 23:07:51 - [TEST_STEP][PASSED] - Statement - println(a): null
+
+2018-11-27 23:07:51 - [TEST_STEP][PASSED] - Statement - return a: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener_2.sampleAfterTestCase(...)' completed.
+
+2018-11-27 23:07:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'www.google.com'
+
+2018-11-27 23:07:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-27 23:08:15 - [MESSAGE][PASSED] - Browser is opened with url: 'www.google.com'
+
+2018-11-27 23:08:15 - [TEST_STEP][PASSED] - Statement - robot = new java.awt.Robot(): null
+
+2018-11-27 23:08:15 - [TEST_STEP][PASSED] - Statement - robot.keyPress(VK_CONTROL): null
+
+2018-11-27 23:08:15 - [TEST_STEP][PASSED] - Statement - robot.keyPress(VK_T): null
+
+2018-11-27 23:08:15 - [TEST_STEP][PASSED] - Statement - robot.keyRelease(VK_CONTROL): null
+
+2018-11-27 23:08:15 - [TEST_STEP][PASSED] - Statement - robot.keyRelease(VK_T): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Switch to new windos index" classname="Test Cases/Switch to new windos index" status="PASSED">
+         <system-out><![CDATA[2018-11-27 23:08:15 - [TEST_CASE][PASSED] - Test Cases/Switch to new windos index: Test Cases/Switch to new windos index
+
+2018-11-27 23:08:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener_2.sampleAfterTestCase(...)' completed.
+
+2018-11-27 23:08:15 - [TEST_STEP][PASSED] - Statement - a = 0: null
+
+2018-11-27 23:08:15 - [TEST_STEP][PASSED] - Statement - (a++): null
+
+2018-11-27 23:08:15 - [TEST_STEP][PASSED] - Statement - println(a): null
+
+2018-11-27 23:08:15 - [TEST_STEP][PASSED] - Statement - return a: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener_2.sampleAfterTestCase(...)' completed.
+
+2018-11-27 23:08:15 - [TEST_STEP][PASSED] - Statement - a = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2018-11-27 23:08:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-27 23:08:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-27 23:08:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-27 23:08:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.w3school.com.cn/js/js_comments.asp' successfully
+
+2018-11-27 23:08:20 - [MESSAGE][PASSED] - Navigate to 'http://www.w3school.com.cn/js/js_comments.asp' successfully
+
+2018-11-27 23:08:20 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/SwitchToNewWindosIndex/Page_JavaScript/TryItButton' is hovered
+
+2018-11-27 23:08:21 - [MESSAGE][PASSED] - Object: 'Object Repository/SwitchToNewWindosIndex/Page_JavaScript/TryItButton' is hovered
+
+2018-11-27 23:08:21 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-27 23:08:21 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-27 23:08:21 - [TEST_STEP][PASSED] - Statement - a = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SwitchToNewWindosIndex/Page_JavaScript/TryItButton), OPTIONAL): Text of object 'Object Repository/SwitchToNewWindosIndex/Page_JavaScript/TryItButton' is: '亲自试一试'
+
+2018-11-27 23:08:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/SwitchToNewWindosIndex/Page_JavaScript/TryItButton' is: '亲自试一试'
+
+2018-11-27 23:08:21 - [TEST_STEP][PASSED] - Statement - println(a): null
+
+2018-11-27 23:08:21 - [TEST_STEP][PASSED] - Statement - robot = new java.awt.Robot(): null
+
+2018-11-27 23:08:21 - [TEST_STEP][PASSED] - Statement - robot.keyPress(VK_CONTROL): null
+
+2018-11-27 23:08:21 - [TEST_STEP][PASSED] - Statement - robot.keyPress(VK_T): null
+
+2018-11-27 23:08:21 - [TEST_STEP][PASSED] - Statement - robot.keyRelease(VK_CONTROL): null
+
+2018-11-27 23:08:21 - [TEST_STEP][PASSED] - Statement - robot.keyRelease(VK_T): null
+
+2018-11-27 23:08:21 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-11-27 23:08:21 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-11-27 23:08:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-27 23:08:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-27 23:07:36 - [TEST_SUITE][FAILED] - test listener1: Test Cases/Get browser cookie FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-11-27 23:07:36 - [TEST_SUITE][FAILED] - test listener1: Test Cases/Get browser cookie FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>
