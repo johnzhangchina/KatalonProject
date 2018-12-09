@@ -18,33 +18,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Cookie as Cookie
-import org.openqa.selenium.WebDriver as WebDriver
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.openBrowser('http://www.51zxw.net/login/')
-/*
-WebUI.waitForPageLoad(30)
+WebUI.openBrowser(null)
 
-WebUI.click(findTestObject('Cookie testing/user name input box'))
+WebUI.navigateToUrl('https://www.baidu.com')
 
-WebUI.setText(findTestObject('Cookie testing/user name input box'), 'johntestzhang@yeah.net')
+WebUI.setText(CustomKeywords.'objectManage.baiduObject.searchBox'(), 'katalon')
 
-WebUI.click(findTestObject('Cookie testing/Login Form data 2'))
 
-WebUI.setText(findTestObject('Cookie testing/Login Form data 2'), '521jobZQ')
-
-WebUI.click(findTestObject('Cookie testing/login button'))
-
-Cookie ck = new Cookie('name', 'value')
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-driver.manage().getCookies()
-
-driver.manage().addCookie(ck)
-
-println(ck)
-
-*/
-WebUI.closeBrowser()

@@ -12,18 +12,6 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>4125abb8-b373-4292-b080-e6e84a731a6c</testSuiteGuid>
    <testCaseLink>
-      <guid>8483c744-df24-45e7-9e19-6382b38ad5ae</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/For</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d9a04790-754a-4769-90c1-b7c6a20e644e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Get browser cookie</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>4a125e86-4c47-4450-a46a-e9972b7864a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
